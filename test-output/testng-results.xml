@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-14T15:16:28 GMT-07:00" name="Default suite" finished-at="2024-07-14T15:16:28 GMT-07:00" duration-ms="149">
+    <groups>
+    </groups>
+    <test started-at="2024-07-14T15:16:28 GMT-07:00" name="Default test" finished-at="2024-07-14T15:16:28 GMT-07:00" duration-ms="149">
+      <class name="rb.tests.TestCases">
+        <test-method is-config="true" signature="init()[pri:0, instance:rb.tests.TestCases@408d971b]" started-at="2024-07-14T15:16:28 GMT-07:00" name="init" finished-at="2024-07-14T15:16:28 GMT-07:00" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="tempTry()[pri:0, instance:rb.tests.TestCases@408d971b]" started-at="2024-07-14T15:16:28 GMT-07:00" name="tempTry" finished-at="2024-07-14T15:16:28 GMT-07:00" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tempTry -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:rb.tests.TestCases@408d971b]" started-at="2024-07-14T15:16:28 GMT-07:00" name="flush" finished-at="2024-07-14T15:16:28 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- rb.tests.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

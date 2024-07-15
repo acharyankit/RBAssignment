@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	 <Properties>
+     <Property name="filePattern">${date:yyyy-MM-dd-HH_mm_ss}</Property>
+   </Properties>
+  <Appenders>
+   <File name="logFile" fileName="logs/app_${filePattern}.log">
+ 			<PatternLayout>
+         <pattern>%d{dd/MM/yyyy HH:mm:ss} [%-5p/%t]: %C{1}(%L): %m%n</pattern>
+       </PatternLayout>
+   </File>
+   <Console name="STDOUT" target="SYSTEM_OUT">
+     <PatternLayout   pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}:(%L) - %msg%n" />
+   </Console>
+  </Appenders>
+  <Loggers>
+   <Logger name="org.apache.log4j.xml" level="debug">
+    <AppenderRef ref="logFile"/>
+   </Logger>
+   <Root level="info">
+    <AppenderRef ref="STDOUT"/>
+     <AppenderRef ref="logFile"/>
+   </Root>
+  </Loggers>
+</Configuration>

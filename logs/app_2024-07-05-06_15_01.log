@@ -1,0 +1,15 @@
+05/07/2024 06:15:07 [INFO /main]: HomePage(32): Home page opened...
+05/07/2024 06:15:08 [INFO /main]: HomePage(37): Text to search entered in Search field...
+05/07/2024 06:15:08 [INFO /main]: HomePage(42): Clicked Search button...
+05/07/2024 06:15:09 [INFO /main]: Reporting(38): HTML extent report generated.
+05/07/2024 06:15:10 [INFO /main]: ResultPage(51): Search Result Text Captured: Showing 1-30 of 291 results for "Ford F-150"
+05/07/2024 06:15:10 [INFO /main]: ResultPage(59): Search Result Count: 291
+05/07/2024 06:15:11 [INFO /main]: Reporting(38): HTML extent report generated.
+05/07/2024 06:15:11 [INFO /main]: ResultPage(65): First Result full text: 2010 Ford F-150 XL 4x2 Extended Cab Pickup
+05/07/2024 06:15:11 [INFO /main]: Reporting(38): HTML extent report generated.
+05/07/2024 06:15:11 [INFO /main]: ResultPage(80): Setting Start Year Filter as: 2010
+05/07/2024 06:15:13 [INFO /main]: Reporting(38): HTML extent report generated.
+05/07/2024 06:15:13 [INFO /main]: ResultPage(51): Search Result Text Captured: Showing 1-30 of 249 results for "Ford F-150"
+05/07/2024 06:15:13 [INFO /main]: ResultPage(59): Search Result Count: 249
+05/07/2024 06:15:13 [INFO /main]: ResultPage(94): Execution Completed
+05/07/2024 06:15:13 [INFO /main]: Reporting(38): HTML extent report generated.
